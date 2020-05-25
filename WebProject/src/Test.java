@@ -27,13 +27,14 @@ public class Test extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-<<<<<<< HEAD
+
 		System.out.println("ee");
-=======
+
 		// TODO Auto-generated method stub
 		System.out.println("hogehoge");
 		System.out.println("piyopiyo");
->>>>>>> refs/remotes/origin/master
+		System.out.println("wata");
+
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
